@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="02.FlightOrder.css" text="text/css">
+        <title>Flight Order</title>
+    </head>
+    <body>
+    <div class="main">
+    <form action="post">
+    <table>
+        <thead>
+            <th colspan="6"><em>FLIGHT ORDER</em></th>
+        </thead>
+        <tbody>
+            <tr>
+                
+                <td colspan="3"><em>From</em><br>
+                <select>
+                <option value="select">Select a city</option>
+                <option value="Sofiq">Sofiq</option>
+                <option value="Burgas">Burgas</option>
+                <option value="Varna">Varna</option>
+                </select>
+                </ br></td>
+                <td colspan="3"><em>To</em>
+                <br>
+                <select>
+                <option value="select">Select a city</option>
+                <option value="Sofiq">Sofiq</option>
+                <option value="Burgas">Burgas</option>
+                <option value="Varna">Varna</option>
+                </select>
+                </ br></td>
+            </tr>
+            <tr>
+            <td colspan="3"></td>
+            <td colspan="3"><input id="prefer-direct" type="checkbox" name="prefer-direct">
+            <label for="prefer-direct"><em>Prefer directs</em></label>
+            </td>
+            </tr>
+                <tr>
+                <td colspan="3">
+                    <em>Departure Date</em>
+                    <br>
+                    <input type="date" name="date">
+                    </ br>
+                </td>
+                <td>
+                   <em>Time Interval</em>
+                   <br>
+                    <input id="time" type="time" name="time">
+                    </ br>
+                </td>
+                <td>
+                <br>
+                    <input id="time" type="time" name="time">
+                    </ br>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <em>Return Date</em>
+                    <br>
+                    <input type="date" name="date">
+                    </ br>
+                </td>
+                <td>
+                   <em>Time Interval</em>
+                   <br>
+                    <input id="time" type="time" name="time">
+                    </ br>
+                </td>
+                <td>
+                <br>
+                    <input id="time" type="time" name="time">
+                    </ br>
+                </td>
+        </tr>
+        <tr>
+            <td>
+                <em>12+</em>
+                <input id="first" type="number" name="first" min="12" max="">
+            </td>
+            <td>
+                <em>2-12</em>
+                <input id="second" type="number" name="second" min="2" max="12">
+            </td>
+            <td>
+                <em>0-2</em>
+                <input id="third" type="number" name="third" min="0" max="2">
+            </td>
+            <td colspan="3">
+            <em>Choose class</em>
+            <select>
+                <option value="economy">Economy</option>
+                <option value="first">First</option>
+                <option value="second">Second</option>
+    
+        </td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="3"></td>
+            <td colspan="3"><button class="search">Search</button></td>
+    </tfoot>
+    </table>
+    </form>
+    </div>       
+    </body>
+</html>

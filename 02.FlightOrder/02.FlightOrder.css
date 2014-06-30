@@ -1,0 +1,36 @@
+div.main {
+    width: 335px;
+    height: 275px;
+    background: #FFADD6;
+    font-size: 14px;
+}
+th {
+    font-size: 23px;
+}
+table {
+    font-size: 12px;
+}
+select {
+    width: 160px;
+}
+input {
+    width: 160px;
+}
+#prefer-direct {
+    width: auto;
+}
+#time {
+    width: 70px;
+}
+#first {
+    width: 40px;
+}
+#second {
+    width: 40px;
+}
+#third {
+    width: 40px;
+}
+.search {
+    width: 160px;
+}

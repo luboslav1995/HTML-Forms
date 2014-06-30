@@ -1,0 +1,109 @@
+div.main {
+    width: 700px;
+    height: 460px;
+    background: #405d9b;
+}
+h2 {
+    font-size: 83px;
+    color: white;
+    text-align: center;
+}
+h3 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 93px;
+    color: white;
+}
+div.link {
+    text-align: center;
+}
+div.reg {
+    font-size: 33px;
+    color: white;
+    text-align: center;
+}
+div.safe {
+    font-size: 23px;
+    color: white;
+    text-align: center;
+}
+fieldset {
+    width: 255px;
+    height: 190px;
+    border-radius: 10px;
+}
+legend {
+    color: white;
+    text-align: center;
+}
+input {
+    border-radius: 5px;
+    width: 120px;
+}
+#date {
+    width: 190px;
+}
+#female {
+    width: auto;
+}
+label {
+    color: white;
+}
+#button {
+    width: 270px;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    border-radius: 10px;
+    color: #405d9b;
+    font-size: 23px;
+}
+#secondfield {
+    position: absolute;
+    left: 320px;
+    top: 186px;
+    height: 189px;
+    width: 320px;
+}
+select {
+    border-radius: 5px;
+    color: gray;
+    width: 80px;
+}
+#region {
+    width: 105px;
+}
+#street {
+    width: 76px;
+}
+#nmr {
+    width: 50px;
+}
+#color {
+    width: 75px;
+}
+#water {
+    width: 105px;
+}
+#aunt {
+    width: 115px;
+}
+#textarea {
+    width: 310px;
+    height: 50px;
+    border-radius: 5px;
+}
+#register {
+    width: 350px;
+    height: 50px;
+    position: absolute;
+    left: 325px;
+    border-radius: 10px;
+    color: #405d9b;
+    font-size: 23px;
+}

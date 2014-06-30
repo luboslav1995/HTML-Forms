@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Fakebook</title>
+        <link rel="stylesheet" href="04.fakebook.css">
+    </head>
+    <body>
+        <div class="main">
+           <div class="link">
+            <a href="04.fakebook.html"><strong>fakebook</strong></a><font color="white">&reg;</font>
+            </div>
+            <div class="reg"><strong>Registration</strong></div>
+            <div class="safe"><strong>It is safe and it will always be!</strong></div>
+                <form id="form">
+                <fieldset>
+                    <legend>None-Important Information</legend>
+            <div>
+                <input type="text" name="FirstName" placeholder="First Name">
+                <input type="text" name="LastName" placeholder="Last Name">   
+            </div>
+               <div>
+                <input type="email" name="email" placeholder="Your Email">
+                <input type="tel" name="phonenumber" placeholder="Phone Number">   
+            </div>
+                <div>
+                <input type="password" name="pass" placeholder="Your Password">
+                <input type="url" name="wbsite" placeholder="WebSite">   
+            </div>
+               <font color="white"><strong>Birthday</strong></font>
+               <br><input id="date" type="date" name="date"></ br>               
+               <br>
+               <input id="female" type="radio" name="gender" value="female">
+               <label for="female">Female</label>
+               <input id="female" type="radio" name="gender" value="male">
+               <label for="male">Male</label>
+               <input id="female" type="radio" name="gender" value="other">
+               <label for="other">Other</label>
+                </ br>
+                </fieldset>
+                <div>
+                <p>
+                <input id="button" type="button" onclick="Reset()" value="Clear Form">
+                </form>
+                <script>
+                    function Reset()
+                    {
+                    document.getElementById("form").reset();
+                    }
+                </script>
+            </div>
+               <form method="get">
+                <fieldset id="secondfield">
+                    <legend>Important Information *required</legend>
+                    <div>
+                    <select>
+                        <option value="country">Country</option>
+                        <option value="Bulgaria">Bulgaria</option>
+                        <option value="USA">USA</option>
+                        <option value="UK">UK</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="Russia">Russia</option>
+                    </select>
+                    <input id="region" type="text" name="village" placeholder="Village" required>
+                    <input id="region" type="text" name="district" placeholder="District" required>
+                    </div>
+                    <div>
+                    <input id="street" type="text" name="street" placeholder="Street" required>
+                    <input id="nmr" type="number" name="nmr" placeholder="Nr" required>
+                    <input id="nmr" type="number" name="floor" placeholder="floor" required>
+                    <input id="nmr" type="number" name="apnr" placeholder="Ap Nr" required>
+                    </div>
+                    <div>
+                    <font size="2px" color="white"><strong>Door Color</strong></font>
+                    <br>
+                    <input id="color" type="color" name="color" value="#ff00ff" >
+                    <input id="water" type="text" name="Water Meter Nr" placeholder="Water Meter Nr">
+                    <select id="aunt">
+                        <option value="Aunt">Aunt Panties Size</option>
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="XXL">XXL</option>
+                    </select>
+                    </ br>
+                    </div>
+                    <div>
+                    <font color="white"><strong>More Personal Infromation</strong></font>
+                    <textarea name="textarea" id="textarea" placeholder="Give us more information!!!"></textarea>
+                    </div>
+                </fieldset>
+                <input id="register" type="submit" name="registration" value="Register">
+                </form>
+        </div>
+    </body>
+</html>

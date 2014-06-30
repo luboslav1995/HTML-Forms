@@ -1,0 +1,50 @@
+body {
+    font-family: Calibri;
+}
+th {
+    color: #2C425A;
+    font-size: 30px;
+    text-align: left;
+}
+.place-container {
+	width: 100px;
+	height:30px;
+	background-color: #2D4760;
+	color: white;
+	border-top-left-radius: 5px;
+    padding-top: 10px;
+	float: right;
+	text-align: center;
+	margin-bottom: 0px;
+}
+img {
+    vertical-align: center;
+}
+button {
+    border: none;
+    background-color: white;
+    color: #2C425A;
+}
+td {
+    border: 1px solid #58c4b1;
+    border-radius: 5px;
+}
+.range {
+    border: 1px solid #58c4b1;
+    width: 255px;
+    height: 485px;
+    position: absolute;
+    left: 870px;
+    top: 20px;
+    background-color: #f7fcff;
+}
+.second {
+    float: right;
+}
+input {
+    width: 245px;
+}
+.parameter {
+    font-size: 20px;
+    text-align: center;
+}

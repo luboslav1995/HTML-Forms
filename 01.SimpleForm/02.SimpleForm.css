@@ -1,0 +1,67 @@
+h2 {
+    color: #234465; 
+}
+#name {
+    width: 300px;
+    height: 25px;
+}
+#username {
+    width: 300px;
+    height: 25px;
+}
+#pass {
+    width: 300px;
+    height: 25px;
+}
+#confirm {
+    width: 300px;
+    height: 25px;
+}
+#register {
+    color: #234465;
+    width: 170px;
+    height: 40px;
+    border: solid 2px #234465;
+    float: right;
+}
+div.mid {
+    width: 305px;
+    padding: 15px;
+}
+div.body {
+    width: 700px;
+    height: 365px;
+    background: #EEEEEE;
+}
+#reg {
+    padding-right: : 15px
+}
+div.secondmid {
+    padding: 10px;
+    position: absolute;
+    left: 340px;
+    top: 111px;
+    background: #234465;
+    height: 235px;
+    width: 330px;
+}
+#secusername {
+    width: 310px;
+    height: 30px;
+}
+#password {
+    width: 310px;
+    height: 30px;
+}
+#login {
+    background: #234465;
+    color: #fff;
+    width: 170px;
+    height: 36px;
+    border: solid 2px #FF9C00;
+    float: right;
+}
+#forgot {
+    position: absolute;
+    left: 200px;
+}
